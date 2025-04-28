@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li::after { /* ::before*/
+    content: ' - ';
+}
+
+p::first-letter {
+    font-size: 50px;
+    color: red;
+    display:block;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+p::first-line {
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+}
+
+p::selection {
+    background: yellow;
+    color: red;
+}

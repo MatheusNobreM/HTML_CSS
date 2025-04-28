@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    transition: all 1s ease-in-out;
+}
+
+.heading:hover {
+    background-color: red;
+}
+
+a {
+    color:yellowgreen
+}
+
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color:darkred;
+}
+
+a:active {
+    background-color:darkgreen;
+}
+
+input:focus {
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+input:checked + p{
+    background-color: aquamarine;
+}
+
+p:not(.meio){
+    color:blue;
+}
+
+ul li:nth-child(even) {
+    background-color: lightblue;
+}
+
+ul li:nth-child(odd) {
+    background-color: yellowgreen;
+}
+
+ul li:nth-child(3n) {
+    background-color: red;
+}
