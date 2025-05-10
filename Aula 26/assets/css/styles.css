@@ -1,0 +1,33 @@
+* {
+   margin: 0;
+   padding: 0;
+
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.pai {
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+a {
+    font-size: 3rem;
+}
+
+.color-two {
+    background: red;
+}
+.color-three {
+    background: blue;
+}
+
+

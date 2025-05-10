@@ -1,0 +1,22 @@
+* {
+   margin: 0;
+   padding: 0;
+
+}
+
+p {
+    font-size: 30px;
+    /* font-style: italic;
+    font-weight: bold;
+    direction: rtl; normal ltr - de onde o texto vai para onde
+    letter-spacing: 5px; espaçamento palavra
+    word-spacing: 2px; espaçamento letra
+    line-height: 40px;altura da linha */
+    text-align: left; /* alinha o texto no centro*/
+    /* text-decoration: underline; sublinha o texto  */
+    text-transform: uppercase; /* transforma o texto em maiúsculo */
+    text-indent: 20px; /* recua o texto 20px */  
+}
+
+
+
