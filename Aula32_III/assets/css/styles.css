@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*para que o padding não atrapalhe o tamanho do elemento*/
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.flex-container {
+    background: yellow;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap; /*para que os itens se ajustem na tela*/
+   
+}
+.flex-item {
+    color: white;
+    width: 32%;
+    height: 200px;
+    background: rebeccapurple;
+    /* flex-grow: 1; para que os itens cresçam igualmente dentro do container */
+    /* flex-shrink: 0; para que os itens não encolham quando o container for menor que o tamanho dos itens */
+    /* flex-basis: 320px; para que os itens tenham um tamanho base de 320px */
+    flex: 1 0 320px; /*flex-grow, flex-shrink, flex-basis*/
+}

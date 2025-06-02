@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*para que o padding não atrapalhe o tamanho do elemento*/
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.flex-container {
+    background: yellow;
+    height: 640px;
+    display: flex;
+    flex-direction: row; /*direção dos itens, pode ser row ou column*/
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap; /*para que os itens não ultrapassem o tamanho do container*/
+
+}
+.flex-item {
+    color: white;
+    width: 33%;
+    background: rebeccapurple;
+  
+}
